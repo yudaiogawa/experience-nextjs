@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // Next.js と Express を連携させるために必要
+    "module": "commonjs",
+    "outDir": "./dist",
+    // Next.js は Babel を使用して Typescript をコンパイルするため、TSコンパイラはjsを出力しない。設定を上書きする。
+    "noEmit": false,
+  },
+  "include": ["./server"]
+}
