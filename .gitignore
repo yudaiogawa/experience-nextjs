@@ -167,3 +167,7 @@ dist
 .pnp.*
 
 
+## WHOAMI
+
+.markdownlint.json
+README_MEMO.md
