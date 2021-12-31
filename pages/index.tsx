@@ -30,6 +30,7 @@ const Page = () => {
       <h2>More...</h2>
       <ul>
          <li><Link href='./about'><a>About</a></Link></li>
+         <li><Link href='./happyNewYear'><a>HappyNewYear</a></Link></li>
       </ul>
     </>
   )
